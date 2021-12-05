@@ -1,0 +1,21 @@
+#content {
+    margin: 0 auto;
+    width: 60%;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+h1, h4, h5 {
+    font-family: 'Merriweather', serif;
+}
+#video-wrapper iframe {
+    width: 100%;
+}
+blockquote {
+    font-weight: bold;
+    border-top: 5px solid #1e15a1;
+    border-bottom: 5px solid #1e15a1;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 18px;
+}
