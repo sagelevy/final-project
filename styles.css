@@ -24,7 +24,8 @@ viewport {
 
 @media only screen and (min-width: 992px) {}
 
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+}
 
 #topper {
 	background-color: #6c8ab8;
@@ -36,9 +37,7 @@ viewport {
 	width: 100%;
 }
 
-#topper h1,
-h4,
-iframe {
+#topper h1, h4, iframe {
 	width: 70%;
 	margin: 0 auto;
 }
@@ -137,15 +136,15 @@ img {
 	padding-top: 20px;
 	padding-bottom: 10px;
 }
-
 a:link {
-	color: #e8f3fa;
+	color: white;
 }
-
 a:visited {
-	color: #e8f3fa;
+	color: blue;
 }
-
 a:hover {
 	color: blue;
+}
+#special:link {
+    color: blue;
 }
