@@ -16,11 +16,12 @@ viewport {
 		width: 80%;
 	}
 	#topper h1 {
-		font-size: 25px;
+		font-size: 15px;
 	}
 }
 
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+}
 
 @media only screen and (min-width: 992px) {}
 
@@ -136,15 +137,19 @@ img {
 	padding-top: 20px;
 	padding-bottom: 10px;
 }
+
 a:link {
 	color: white;
 }
+
 a:visited {
-	color: blue;
+	color: purple;
 }
+
 a:hover {
 	color: blue;
 }
-#special:link {
+
+.special a:link {
     color: blue;
 }
